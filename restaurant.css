@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0f172a;
+    color: #fff;
+    text-align: center;
+}
+
+.hero {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #f97316, #ea580c);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    color: #ea580c;
+    cursor: pointer;
+}
+
+.menu {
+    padding: 30px;
+}
+
+.menu-item {
+    background: #1e293b;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 20px;
+  }
