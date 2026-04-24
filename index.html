@@ -1,42 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicious Bites</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="restaurant.css">
 </head>
 <body>
 
+<!-- HERO -->
 <header class="hero">
     <h1>Delicious Bites</h1>
-    <p>Fresh Food • Great Taste • Fast Service</p>
-    <button>Order Now</button>
+    <p>Fresh Food • Great Taste • Fast Delivery</p>
+    <button onclick="orderNow()">Order Now</button>
 </header>
 
+<!-- MENU -->
 <section class="menu">
     <h2>Our Menu</h2>
 
-    <div class="menu-item">🍔 Burger</div>
-    <div class="menu-item">🍕 Pizza</div>
-    <div class="menu-item">🍗 Chicken</div>
-    <div class="menu-item">🥤 Drinks</div>
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="">
+        <h3>Burger</h3>
+        <p>Ksh 300</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="">
+        <h3>Pizza</h3>
+        <p>Ksh 800</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="">
+        <h3>Chicken</h3>
+        <p>Ksh 500</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://via.placeholder.com/150" alt="">
+        <h3>Drinks</h3>
+        <p>Ksh 150</p>
+    </div>
 </section>
 
+<!-- ABOUT -->
 <section class="about">
     <h2>About Us</h2>
-    <p>We serve delicious meals made with fresh ingredients.</p>
+    <p>We serve delicious meals made with fresh ingredients daily.</p>
 </section>
 
+<!-- CONTACT -->
 <section class="contact">
-    <h2>Contact</h2>
-    <p>Call: 0700000000</p>
-    <button>Order Now</button>
+    <h2>Contact Us</h2>
+    <p>📍 Nairobi, Kenya</p>
+    <p>📞 0700000000</p>
+    <p>⏰ Open: 8AM - 10PM</p>
+    <button onclick="orderNow()">Order Now</button>
 </section>
 
 <footer>
     <p>© 2026 Delicious Bites</p>
 </footer>
 
+<script src="restaurant.js"></script>
+
 </body>
-</html>
+    </html>
